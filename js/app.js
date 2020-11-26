@@ -36,14 +36,11 @@ function fizzBuzz(number) {
     let defaultElement = document.createElement("div");
     let text = document.createTextNode(number);
     defaultElement.appendChild(text);
+    defaultElement.classList.add("bg-white");
 
     app.appendChild(defaultElement);
   }
   fizzBuzz(number + 1);
-}
-
-function defaultBackgrounds() {
-
 }
 
 fizzBuzz(1);
