@@ -12,6 +12,7 @@ function fizzBuzz(number) {
     let fizzBuzzElement = document.createElement("div");
     let text = document.createTextNode("FizzBuzz");
     fizzBuzzElement.appendChild(text);
+    fizzBuzzElement.classList.add("fizz-buzz");
 
     app.appendChild(fizzBuzzElement);
   }
@@ -19,6 +20,7 @@ function fizzBuzz(number) {
     let fizzElement = document.createElement("div");
     let text = document.createTextNode("Fizz");
     fizzElement.appendChild(text);
+    fizzElement.classList.add("fizz");
 
     app.appendChild(fizzElement);
   }
@@ -26,6 +28,7 @@ function fizzBuzz(number) {
     let buzzElement = document.createElement("div");
     let text = document.createTextNode("Buzz");
     buzzElement.appendChild(text);
+    buzzElement.classList.add("buzz");
 
     app.appendChild(buzzElement);
   }
@@ -37,6 +40,10 @@ function fizzBuzz(number) {
     app.appendChild(defaultElement);
   }
   fizzBuzz(number + 1);
+}
+
+function defaultBackgrounds() {
+
 }
 
 fizzBuzz(1);

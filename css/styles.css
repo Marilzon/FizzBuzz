@@ -4,24 +4,28 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: #009cde;
   height: 100vh;
+  transition: 0.5s;
+}
+h1, h2 {
+  color: #fff;
+  text-align: center;
 }
 
 #app {
   display: flex;
   flex-flow: row wrap;
-  max-height: 90vh;
+  margin-top: 20px;
+
+  justify-content: center;
+  align-items: center;
 }
 
 #app > div {
   background-color: #fff;
   border: 1px solid #000;
-  width: 100px;
+  width: 80px;
   margin: 5px;
   text-align: center;
   line-height: 25px;
