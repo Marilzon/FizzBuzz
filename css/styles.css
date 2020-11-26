@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #009cde;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-flow: row wrap;
+  max-height: 90vh;
+}
+
+#app > div {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+
+  transition: 0.2s;
+}
+#app > div:hover {
+  background-color: #97d700;
+}
+
