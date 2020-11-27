@@ -3,7 +3,7 @@ PAGINA: (https://marilzon.github.io/FizzBuzz/)
 
 [X] O programa gera uma contagem de 1 a 100, exibindo os elementos que são “FizzBuzz”
 
-### Descriçoes técnicas
+## Descriçoes técnicas
 
  - Constantes e *let* o mais descritivo possivel.
 
@@ -11,7 +11,7 @@ PAGINA: (https://marilzon.github.io/FizzBuzz/)
 
  - CSS com foco em flexbox.
 
-### Algoritimo descritivo
+## Algoritimo descritivo
 
 1 - Referenciando a constante *app* seletor *id #app*, para renderizar todos elementos necessarios
 
