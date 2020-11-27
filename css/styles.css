@@ -10,12 +10,13 @@ body {
 
   background-color: #009cde;
   height: 100vh;
-  transition: 0.5s;
 }
+
 h1, h2 {
   color: #fff;
   text-align: center;
 }
+
 a {
   color: #fff;
 }
@@ -42,18 +43,11 @@ a {
   user-select: none;
 }
 
-.fizz {
-  background-color:#97d700;
-}
-.buzz {
-  background-color:#e73c7e;
-}
-.fizz-buzz {
-  background-color: #696969;
-}
-.bg-white {
-  background-color: #fff;
-}
+.fizz {background-color:#97d700;}
+.buzz {background-color:#e73c7e;}
+.fizz-buzz {background-color:#696969;}
+.bg-white {background-color:#fff;}
+
 /* Extra effects */
 .fizz:hover,
 .buzz:hover,
