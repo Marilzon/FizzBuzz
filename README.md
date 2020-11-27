@@ -25,3 +25,5 @@ PAGINA: (https://marilzon.github.io/FizzBuzz/)
 5 - a chamada *fizzBuzz(number + 1)* incrementa o valor sequencialmente para que satisfaça a condição, semenhante a lógica *for (i = 0; i <= 100: i++>)*.
 
 6 - A função é executada direto no código com valor inicial 1.
+
+7 - O resultado esta classificado e estilizado em cores diferentes.
