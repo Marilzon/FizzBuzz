@@ -1,7 +1,7 @@
 # FizzBuzz
 PAGINA: (https://marilzon.github.io/FizzBuzz/)
 
-[X] O programa gera uma contagem de 1 a 100, exibindo os elementos que são “FizzBuzz”
+[X] O codigo gera uma contagem de 1 a 100, exibindo os elementos que satisfazem a condição “FizzBuzz”.
 
 ## Descriçoes técnicas
 
