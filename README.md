@@ -18,8 +18,7 @@ PAGINA: (https://marilzon.github.io/FizzBuzz/)
 
 2 - *if (number > 100) {return;}*, logo se o *number* for maior que 100 o returno sera true, isto encerrara a logica condicional.
 
-3 - *let isMultipleOfThree = number % 3 === 0;
-    let isMultipleOfFive = number % 5 === 0;*
+3 - *let isMultipleOfThree... *
     Guarda na memória o calculo para testar se é Fizz e/ou Buzz, a declaração let faz com que não sobre dado na memória fora do escopo.
 
 4 - se é *multiplo de 3 e multiplo de 5*, crie o elemento div e atribua a ele o texto *FizzBuzz* e a classe *fizz-buzz*, logica que se repete para *Fizz*, *Buzz*, *FizzBuzz* e o default(não fizz||buzz) que recebem a classe *bg-white*.
