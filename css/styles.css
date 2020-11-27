@@ -16,6 +16,9 @@ h1, h2 {
   color: #fff;
   text-align: center;
 }
+a {
+  color: #fff;
+}
 
 #app {
   display: flex;
@@ -27,7 +30,7 @@ h1, h2 {
 }
 
 #app > div {
-  border: 1px solid #000;
+  border: 0.5px solid #000;
   width: 130px;
   margin: 5px;
   text-align: center;
@@ -42,7 +45,6 @@ h1, h2 {
 .fizz {
   background-color:#97d700;
 }
-
 .buzz {
   background-color:#e73c7e;
 }
@@ -52,5 +54,11 @@ h1, h2 {
 .bg-white {
   background-color: #fff;
 }
-
-
+/* Extra effects */
+.fizz:hover,
+.buzz:hover,
+.fizz-buzz:hover,
+.bg-white:hover {
+  transition: 0.5s;
+  font-weight: bold;
+}

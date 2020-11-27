@@ -1,6 +1,11 @@
 # FizzBuzz
 
- - Procurei sempre deixar as variaveis o mais descritivo possivel sobre seu objetivo
+### Descriçoes técnicas
 
- - Declarei LET para que o valor delas seja apenas de escopo fechado em cada bloco.
+ - Constantes e LET o mais descritivo possivel.
+
+ - declarações LET para que o valor seja apenas de escopo fechado.
+
+### Algoritimo
+
 

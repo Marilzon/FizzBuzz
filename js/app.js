@@ -43,4 +43,7 @@ function fizzBuzz(number) {
   fizzBuzz(number + 1);
 }
 
-fizzBuzz(1);
+setTimeout(() => {
+  fizzBuzz(1);
+}, 1500);
+
