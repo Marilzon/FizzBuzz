@@ -12,11 +12,11 @@ PAGINA: (https://marilzon.github.io/FizzBuzz/)
 
  - CSS com foco em flexbox.
 
-## Algoritimo e detalhes do código
+## Explicação sobre o algoritimo e detalhes do código.
 
 1 - Referenciando a constante *app*, apontando seletor para *#app*, será o responsavel pelo conteudo renderizado na página.
 
-2 - se o *number* for maior que 100 retorne true, isto encerrara a logica condicional.
+2 - *if (number > 100) {return;}*, logo se o *number* for maior que 100 o returno sera true, isto encerrara a logica condicional.
 
 3 - guardando na memória o calculo para testar se Fizz e/ou Buzz.
 
